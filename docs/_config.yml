@@ -26,6 +26,7 @@ domain: nabin01.github.io
 url: "https://nabin01.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 github_username: nabin01
+linkedin_username: nabinkoirala
 
 # Build settings
 theme: minima
