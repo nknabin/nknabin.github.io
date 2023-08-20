@@ -7,3 +7,31 @@ layout: home
 Welcome to my blog!
 
 You can find my notes here that I have maintained over the years! Just find something that interests you below and click on it.
+
+Linux
+<ul>
+  {% for post in site.categories.linux %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+Virtualization
+<ul>
+  {% for post in site.categories.virtualization %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+Wander
+<ul>
+  {% for post in site.categories.wander %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
