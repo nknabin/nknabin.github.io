@@ -28,7 +28,7 @@ This features also require guest additions to be installed inside your guest OS.
 
 If the you don't get the popup after on step 2, do the following to find and run guest additions for Linux:
 
-```
+```shell
 $ cd /media/username/VBox_Gas_x.x.x # substitute with real path or use tab completion
 $ sudo ./VBoxLinuxAdditions.run
 ```
@@ -47,7 +47,7 @@ First we are going to create a folder in our host machine. This folder is going 
 
 On host,
 
-```
+```shell
 $ cd
 $ mkdir sharedoc
 $ cd sharedoc
@@ -63,7 +63,7 @@ On guest,
 
 To be able to work with shared folders, you will need to add your user to vboxsf group. To do this, enter the following command in a terminal:
 
-```
+```shell
 $ sudo usermod -aG vboxsf $USER
 ```
 
@@ -122,7 +122,7 @@ Here are some tips that will make your workflow more efficient:
 
 - If you can't share a folder, it's probably because you haven't added your user to vboxsf group or the path to the shared folder is incorrect. Try manually mounting your shared folder in order to test this.
 
-  ```
+  ```shell
   $ sudo mount -t vboxsf sharename /mnt/vmshare
   ```
 

@@ -57,9 +57,9 @@ Notice that when you are taken to Ubuntu Desktop, the display is smaller. This m
 
 ### Step 7: Install Ubuntu
 
-The installation process is the same as if you are installing on a physical machine. Although specific images can be found for some OSes for VirtualBox, manually installing is always a good way to learn. See [here]({% post_url 2022-05-24-install-ubuntu %}) for installing Ubuntu.
-
 Note that by default, Ubuntu is installed in bios mode. This is perfectly fine to be used inside a VirtualBox. However, if you want EFi mode, go to Settings > System > Motherboard of your guest OS and check Enable EFI (Special OSes only). Ubuntu inside VirtualBox supports EFI. Also, you will need to install extension pack for this.
+
+The installation process is the same as if you are installing on a physical machine. Although specific images can be found for some OSes for VirtualBox, manually installing is always a good way to learn. See [here]({% post_url 2022-05-24-install-ubuntu %}) for installing Ubuntu.
 
 ### Conclusion
 After this, you have successfully installed Ubuntu on your VirtualBox. See [here]({% post_url 2022-05-24-install-ubuntu-on-virtualbox-post-installation-guide %}) for post installation guide where you will learn to set up shared folders, USB usage and auto resize guest display among others.

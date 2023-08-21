@@ -22,7 +22,7 @@ The account you set up during installation is a normal account. It does not have
 
 **passwd** is a command-line utility that allows a user to change his/her password. To change the root password, enter the following command in a terminal: (when you type any password in a terminal, the characters are hidden for security purposes)
 
-```
+```shell
 $ sudo passwd
 ```
 
@@ -38,13 +38,13 @@ Here are a few important things to keep in mind regarding the root account:
 
 First, we are going to add 32-bit (i386) architecture support so that we can install and use 32-bit packages as well.
 
-```
+```shell
 $ sudo dpkg --add-architecture i386
 ```
 
 Now, update your system.
 
-```
+```shell
 $ sudo apt update && sudo apt upgrade -y
 ```
 
@@ -66,7 +66,7 @@ Ubuntu 20.04 comes with Firefox as the default browser. However, you can install
 
 We are going to install Chromium, the open-source browser that's much like Google Chrome. Chromium is provided by the package called chromium-browser. Firefox is provided by the package firefox, if you want that instead of Chromium. There are two ways to install packages. The first way is using a terminal as shown below:
 
-```
+```shell
 $ sudo apt install chromium-browser -y
 ```
 
@@ -82,7 +82,7 @@ Even though Ubuntu comes with lots of applications by default, you will want to 
 
 VLC - A multimedia player that supports most multimedia files and streaming protocols
 
-```
+```shell
 $ sudo apt install vlc -y
 ```
 
@@ -90,7 +90,7 @@ $ sudo apt install vlc -y
 
 Viber - Instant messaging app
 
-```
+```shell
 $ snap search viber
 $ sudo snap install viber-unofficial
 ```
@@ -107,13 +107,13 @@ You can search for and install other programs in similar ways.
 
 Gnome Tweak Tool gives you the extra flexibility of customizing your device. It allows you to change appearance, icon, and cursor themes, customize title bars, top bars, fonts, keyboard/mouse behaviors, and more. Install tweak tools using the command below:
 
-```
+```shell
 $ sudo apt install gnome-tweaks -y
 ```
 
 Also, install gnome-shell-extensions to enable using user shell themes. Shell themes change the appearance of the top and left bars on Ubuntu.
 
-```
+```shell
 $ sudo apt install gnome-shell-extensions -y
 ```
 
@@ -123,7 +123,7 @@ Log out and log back in before moving forward to enable user shell themes.
 
 Install your favorite theme with the following command: (Use apt search to search for your theme.)
 
-```
+```shell
 $ sudo apt install arc-theme -y
 ```
 
