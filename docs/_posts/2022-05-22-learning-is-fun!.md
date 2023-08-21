@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learning Is Fun!"
+title: "Learning is fun!"
 date: 2022-05-22 11:01:12 +0545
 categories: wander
 ---

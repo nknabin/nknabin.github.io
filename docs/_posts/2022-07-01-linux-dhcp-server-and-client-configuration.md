@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Set up DHCP Server in Linux"
+title: "How to set up DHCP server in Linux"
 date: 2022-07-01 20:10:19 +0545
 categories: linux
 ---

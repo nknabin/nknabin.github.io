@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Install VirtualBox on Windows and Ubuntu 20.04"
+title: "How to install VirtualBox on Windows and Linux (Ubuntu)"
 date: 2022-05-23 15:30:22 +0545
 categories: virtualization
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Set up Linux (Ubuntu) to Use Static IP Address"
+title: "How to set up Linux (Ubuntu) to use static IP address"
 date: 2022-06-21 10:40:09 +0545
 categories: linux
 ---

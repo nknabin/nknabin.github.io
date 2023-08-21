@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Common usage of apt "
+title: "Common usage of apt"
 date: 2022-08-14 12:15:00 +0545
 categories: linux
 ---

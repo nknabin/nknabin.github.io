@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Virtualization - Get Started!"
+title: "Virtualization: Get started!"
 date: 2022-05-23 14:31:32 +0545
 categories: virtualization
 ---

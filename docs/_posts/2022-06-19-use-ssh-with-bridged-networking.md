@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Use SSH With Bridged Networking on VirtualBox"
+title: "How to use SSH with bridged networking on VirtualBox"
 date: 2022-06-19 15:45:10 +0545
 categories: virtualization
 ---

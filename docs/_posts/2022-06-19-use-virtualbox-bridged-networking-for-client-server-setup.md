@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Use Bridged Networking to Set up Client and Server Lab Environment on VirtualBox"
+title: "How to use bridged networking to set up client and server lab environment on VirtualBox"
 date: 2022-06-19 14:35:21 +0545
 categories: virtualization
 ---

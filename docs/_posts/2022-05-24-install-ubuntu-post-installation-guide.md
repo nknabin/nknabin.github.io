@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Install Ubuntu: Post Installation Guide"
+title: "How to install Ubuntu: Post installation guide"
 date: 2022-05-24 14:20:22 +0545
 categories: linux
 ---

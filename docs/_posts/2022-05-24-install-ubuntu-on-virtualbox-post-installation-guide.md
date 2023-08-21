@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Install Ubuntu on VirtualBox: Post Installation Guide"
+title: "How To install Ubuntu on VirtualBox: Post installation guide"
 date: 2022-05-24 18:10:02 +0545
 categories: virtualization
 ---

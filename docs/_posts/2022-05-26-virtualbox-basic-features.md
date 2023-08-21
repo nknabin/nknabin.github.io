@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Virtualbox: Introduction to Basic Features"
+title: "Virtualbox: Introduction to basic features"
 date: 2022-05-26 22:49:11 +0545
 categories: virtualization
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git: Basic Usage"
+title: "Git: Basic usage"
 date: 2022-07-25 09:52:12 +0545
 categories: git
 ---

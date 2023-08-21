@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Apt troubleshooting: Package Installation, and Maintenance"
+title: "Apt troubleshooting: Package installation, and maintenance"
 date: 2022-08-14 16:30:29 +0545
 categories: linux
 ---

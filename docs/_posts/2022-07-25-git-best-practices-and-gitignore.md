@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git: Best Practices and gitignore"
+title: "Git: Best practices and gitignore"
 date: 2022-07-25 09:52:12 +0545
 categories: git
 ---
