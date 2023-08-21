@@ -8,7 +8,16 @@ Welcome to my blog!
 
 You can find my notes here that I have maintained over the years! Just find something that interests you below and click on it.
 
-Git 
+General
+<ul>
+  {% for post in site.categories.general %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+Git
 <ul>
   {% for post in site.categories.git %}
     {% if post.url %}
