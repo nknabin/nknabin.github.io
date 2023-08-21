@@ -45,7 +45,7 @@ Now that your server (and client) machines use bridged networking mode, it can b
 
 Use ip command to check the IP address.
 
-```shell
+```
 $ ip addr show
 ```
 
@@ -53,13 +53,13 @@ lo is a special virtual interface that the system uses to communicate with itsel
 
 Alternatively, you can also use `ifconfig` command to see the IP address as follows, if `net-tools` are installed.
 
-```shell
+```
 $ ifconfig
 ```
 
 Now, from your host machine (or other machines on the same network), use ping to see if your server is available.
 
-```shell
+```
 $ ping <server's ip>
 ```
 

@@ -49,7 +49,7 @@ When you run this command, make sure you type the arguments correctly. Otherwise
 
 Physical drives are often mounted as sdx under /dev (for example: /dev/sda, /dev/sdb, /dev/sdc and so on), with x incrementally replaced from a through z (and more). To find out which is your USB drive, use the fdisk utility.
 
-```shell
+```
 $ sudo fdisk -l
 ```
 
@@ -57,7 +57,7 @@ Physical drives can be recognized with labels if the drives are labeled. They ca
 
 Assuming your drive is /dev/sdb, run the following command to make it bootable with the downloaded Ubuntu iso. bs sets the block size for the new drive (USB drive in this case). However, this is not necessary. sync is important because, without it, dd might return before the write operation completes, which can create an incomplete or corrupt USB drive. Make sure that you eject your drive safely.
 
-```shell
+```
 $ dd if=/path/to/ubuntu-20.04.iso of=/dev/sdb bs=4M && sync
 ```
 

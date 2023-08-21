@@ -20,12 +20,12 @@ If not, see [here]({% post_url 2022-05-24-install-ubuntu-on-virtualbox %}) to in
 Follow the steps below to start a guest machine in headless mode:
 
 1. List your vms.<br>
-   ```shell
+   ```
    $ VBoxManage list vms
    ```
 
 2. Start your vm in headless mode.<br>
-   ```shell
+   ```
    $ VBoxManage startvm <vm-name> --type headless
    ```
 
@@ -35,7 +35,7 @@ This requires ssh server to be installed and enabled on boot so that ssh server 
 
 Note that if you use DHCP configuration, the server will change its IP address when it requires to. This makes it not possible to use ssh like this. Therefore, configure your server to use a static IP address. This way, you can always use one IP address to access your server. This is also how servers are accessed in real world, using a fixed ip address via ssh.
 
-```shell
+```
 $ ssh <username>@<hostname>
 ```
 

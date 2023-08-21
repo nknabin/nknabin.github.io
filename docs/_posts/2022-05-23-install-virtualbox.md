@@ -26,7 +26,7 @@ Search for **VirtualBox** in **Add or Remove Software** (or similar software cen
 - CLI<br>
 Use the package management tool on Ubuntu called **apt** (Advanced Packaging Tool). Linux headers are required for compiling virtualbox package.
 
-  ```shell
+  ```
   $ sudo apt update
   $ sudo apt install linux-headers-generic linux-headers-$(uname -r) -y
   $ sudo apt install virtualbox -y
@@ -39,7 +39,7 @@ After this, you are ready to go. Launch VirtualBox by searching in programs or f
 #### Add your user to vboxusers group<br>
 The group vboxusers is created when VirtualBox is installed. Use the command below to add your user to that group.
 
-```shell
+```
 $ sudo usermod -a -G vboxusers $USER
 ```
 
