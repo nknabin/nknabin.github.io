@@ -20,10 +20,10 @@ After installation, you can launch VirtualBox from Start menu.
 
 Follow one of these ways to install VirtualBox on Ubuntu.
 
-- GUI  
+- GUI<br>
 Search for **VirtualBox** in **Add or Remove Software** (or similar software centers). Then, click on Install. Finally, apply the changes.
 
-- CLI  
+- CLI<br>
 Use the package management tool on Ubuntu called **apt** (Advanced Packaging Tool). Linux headers are required for compiling virtualbox package.
 
   ```
@@ -32,11 +32,11 @@ Use the package management tool on Ubuntu called **apt** (Advanced Packaging Too
   $ sudo apt install virtualbox -y
   ```
 
-After this, you are ready to go. Launch VirtualBox by searching in programs or from a terminal by typing virtualbox. 
+After this, you are ready to go. Launch VirtualBox by searching in programs or from a terminal by typing virtualbox.
 
 ### After installation
 
-#### Add your user to vboxusers group  
+#### Add your user to vboxusers group<br>
 The group vboxusers is created when VirtualBox is installed. Use the command below to add your user to that group.
 
 ```

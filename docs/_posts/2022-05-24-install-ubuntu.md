@@ -9,10 +9,10 @@ categories: linux
 
 If you are doing this for the first time, you are better off installing Ubuntu 20.04 inside VirtualBox.
 
-1. Backup  
+1. Backup
 Back up your data into another drive or cloud. Since this is going to be a full standalone installation, we will be completely wiping the disk. In any situation, it is recommended to back up your important data before you proceed.
 
-2. USB drive of at least 4 GB  
+2. USB drive of at least 4 GB
 We will use this drive to live boot into Ubuntu and install it.
 
 This is going to be a Ubuntu standalone installation. If you are looking for dual booting Ubuntu with Windows, then installing Windows first is recommended as it simplifies a lot of things. Create enough free space during Windows installation for Ubuntu.
@@ -93,43 +93,43 @@ Disable Download updates while installing Ubuntu if your internet is slow or uns
 
 Choose one of the following:
 
-- Erase disk and install Ubuntu  
+- Erase disk and install Ubuntu<br>
 This is recommended for beginners. The installer creates all required file systems.
 
-- Something else (manual partition)  
-There can be a number of advantages of having different partitions for boot, swap, root, and home. The most important one is that you can keep your personal files separate so that reinstalling Ubuntu if required  (or other operating systems) is easier. To do this, click on Something else and click on Continue.
+- Something else (manual partition)<br>
+There can be a number of advantages of having different partitions for boot, swap, root, and home. The most important one is that you can keep your personal files separate so that reinstalling Ubuntu if required (or other operating systems) is easier. To do this, click on Something else and click on Continue.
 
-1. If you are using UEFI, create a new **gpt** style partition table in the installer by clicking on New Partition Table. Use **msdos** style partition table if you are using BIOS.
+If you are using UEFI, create a new **gpt** style partition table in the installer by clicking on New Partition Table. Use **msdos** style partition table if you are using BIOS.
 
-2. Create the following partitions:
-   1. MBR/EFI partition  
-   Usage: Stores boot files and information  
-   Size: 500 MB  
-   File system type: ext2 for BIOS and EFI System Partition for UEFI (If not available, select FAT32 as file system type and set boot flag)  
-   Partition type: Primary  
-   Mount point: /boot
+Create the following partitions:
+1. MBR/EFI partition<br>
+Usage: Stores boot files and information<br>
+Size: 500 MB<br>
+File system type: ext2 for BIOS and EFI System Partition for UEFI (If not available, select FAT32 as file system type and set boot flag)<br>
+Partition type: Primary<br>
+Mount point: /boot
 
-   2. Root partition (/)  
-   Usage: Stores system files, binaries, libraries and logs. Everything in Linux starts at /.  
-   Size: at least 20 GB is recommended. 30 GB is enough for most use cases.  
-   File system type: ext4  
-   Partition type: Primary  
-   Mount point: /
+2. Root partition (/)<br>
+Usage: Stores system files, binaries, libraries and logs. Everything in Linux starts at /.<br>
+Size: at least 20 GB is recommended. 30 GB is enough for most use cases.<br>
+File system type: ext4<br>
+Partition type: Primary<br>
+Mount point: /
 
-   3. Optional Swap partition  
-   Usage: Used as additional memory if your RAM is full.  
-   File system type: linux-swap  
-   Partition type: Primary  
-   Mount point:  
+3. Optional Swap partition<br>
+Usage: Used as additional memory if your RAM is full.<br>
+File system type: linux-swap<br>
+Partition type: Primary<br>
+Mount point:<br>
 
-       If you have an SSD, creating a swapfile after installation will work better as you will have more control of it. If you have 16 GB or more RAM, you do not need a Swap partition unless you are planning to use memory heavy applications. If your RAM is 8 GB or less, create a swap partition of type linux-swap and size 8 GB. For RAM less than 4 GB, create a swap with size 2 x RAM.
+    If you have an SSD, creating a swapfile after installation will work better as you will have more control of it. If you have 16 GB or more RAM, you do not need a Swap partition unless you are planning to use memory heavy applications. If your RAM is 8 GB or less, create a swap partition of type linux-swap and size 8 GB. For RAM less than 4 GB, create a swap with size 2 x RAM.
 
-   4. Home partition  
-   Usage: Stores all user's files including Downloads, Documents, Photos and Videos.  
-   Size: Allocate all remaining space for your home partition.  
-   File system type: ext4  
-   Partition type: Primary  
-   Mount point: /
+4. Home partition<br>
+Usage: Stores all user's files including Downloads, Documents, Photos and Videos.<br>
+Size: Allocate all remaining space for your home partition.<br>
+File system type: ext4<br>
+Partition type: Primary<br>
+Mount point: /
 
 If you have a large hard drive, you can create additional partitions for other usage (such as backups). If you leave the mount point empty, you can mount them later on on your desired mount point. However, if you are using BIOS (which uses an MBR partition table), you can create only four primary partitions. A GPT partition table (supported by UEFI) allows you to make much more (128 by default).
 

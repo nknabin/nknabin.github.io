@@ -21,7 +21,7 @@ Make sure you have installed an extension pack that matches the version of your 
 
 This features also require guest additions to be installed inside your guest OS. It gives a guest OS necessary tools to work with above mentioned features. The easiest way to do this is as follows:
 
-1. Click on  Devices on the menu bar.
+1. Click on Devices on the menu bar.
 2. Click on Insert Guest Additions CD Image. You should get a pop up asking to run this software like this.
 3. Click Run. Enter your password when prompted for. This will open up a new terminal and install the guest additions.
 4. Press Return (Enter key) when the installation is completed and reboot (either type reboot on a terminal or choose Power off from the drop down menu and click on Restart).

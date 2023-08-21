@@ -63,4 +63,3 @@ Note that by default, Ubuntu is installed in bios mode. This is perfectly fine t
 
 ### Conclusion
 After this, you have successfully installed Ubuntu on your VirtualBox. See [here]({% post_url 2022-05-24-install-ubuntu-on-virtualbox-post-installation-guide %}) for post installation guide where you will learn to set up shared folders, USB usage and auto resize guest display among others.
-

@@ -15,22 +15,22 @@ The hypervisor runs multiple virtual systems simultaneously. The system/machine 
 
 Depending on your purposes, it is highly useful and comes handy in many cases. Here are some of the things I have used virtualization for:
 
-- Practice  
+- Practice<br>
 Use virtual machines to try and get accustomed to new programs and tools before you actually install it on the host machines. Host OS is always safe no matter what happens to the virtual machines (VMs).
 
-- Testing software/configurations  
+- Testing software/configurations<br>
 Testing new configurations and trying new window managers and desktop environments are easy with VMs.
 
-- Web servers  
+- Web servers<br>
 Use different servers in headless mode so you can focus entirely on your web development.
 
-- Back up  
+- Back up<br>
 With features like snapshots, virtual machines are a good choice for backups. Besides, as long as you have the virtual disk image files, you can start where you left off in the virtual machine even if you switched to a different operating system or a new machine.
 
-- Run Windows on top of my Linux machine or vice-versa  
+- Run Windows on top of my Linux machine or vice-versa<br>
 Run native Linux/Windows applications on virtual machines. Do this for learning or for utilizing the efficiency of each OS.
 
-- Browse in complete safety  
+- Browse in complete safety<br>
 Browsing inside a VM makes your host OS completely out of harm's way from malware, viruses and attackers. Using a privacy focused OS like Tails OS even adds more to your online privacy and safety.
 
 ### Okay, how do I start?
@@ -45,16 +45,16 @@ Although there are other options like VMWare Player is free, it does not provide
 
 Before you start, there are some things you need to know about when not to use virtualization. Although virtualization offers you the flexibility of running multiple operating systems simultaneously, it comes with great price: the hardware sharing. Unless you have quite a big pocket to invest in powerful hardware, virtualization is just not for running resource intensive applications like games. Although virtualization offers advantages from running multiple machines simultaneously, nothing is as efficient as fast as compared to the physical machine. So, here are some situation where hypervisors don't provide satisfactory performance:
 
-- Limited Capacity  
+- Limited Capacity<br>
 Unless you have a capable machine, virtualization creates more problems to work with both your host and guests. Anything equivalent to Intel i5 processor and 4 GB ram is enough to try out virtualization and play around.
 
-- Resource Intensive applications  
+- Resource Intensive applications<br>
 Go with alternatives if you need to play games or use resource intensive apps like video editing software or distributed SMP applications. These are more efficient running off of host OS.
 
-- Server virtualization  
+- Server virtualization<br>
 Unless you now what you are doing, it just adds a layer of complexity. Simple tasks like managing encryption keys gets more complex and virtualization may increase the downtime of servers.
 
-- Others  
+- Others<br>
 Some apps are restricted by their license to run on hypervisors. Some apps that have critical time synchronization requirements may not work as expected at all times since hypervisors maintain their own clock.
 
 ### Time to play around!
