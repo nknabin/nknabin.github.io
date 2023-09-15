@@ -62,3 +62,5 @@ Wander
   {% endfor %}
 </ul>
 
+<script src="https://chat-dev.rippey.ai"></script>
+
