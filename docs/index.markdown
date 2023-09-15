@@ -61,6 +61,3 @@ Wander
     {% endif %}
   {% endfor %}
 </ul>
-
-<script src="https://chat.preprod.rippey.ai"></script>
-
