@@ -17,6 +17,18 @@ $ reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2
 
 ## Linux
 
+1. GNOME
+
+Allow resizing with right mouse click
+```
+$ gsettings set org.gnome.desktop.wm.preferences resize-with-right-button true
+```
+
+Use Alt instead of Super:
+```
+gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier '<Alt>'
+```
+
 ### Run GUI apps as root in Sway
 If you can't run GUI apps as sudo in Sway (error: no protocol specified or something similar),  run this in a terminal for a quick fix.
 
