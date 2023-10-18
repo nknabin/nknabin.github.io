@@ -4,11 +4,13 @@
 
 layout: home
 ---
+
 Welcome to my blog!
 
-You can find my notes here that I have maintained over the years! Just find something that interests you below and click on it.
+Find all of my notes compiled in this repo: [nabin01/nbook](https://github.com/nabin01/nbook.git)
 
-Wander
+## Where do you want to wander today?
+
 <ul>
   {% for post in site.categories.wander %}
     {% if post.url %}
