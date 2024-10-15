@@ -22,10 +22,10 @@ title: Nabin's Blog
 email: nabinkoirala01.nk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Find stuff about programming, software development, Linux administration, web security, and more.
-domain: nabin01.github.io
-url: "https://nabin01.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+domain: nknabin.github.io
+url: "https://nknabin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-github_username: nabin01
+github_username: nknabin
 linkedin_username: nabinkoirala
 
 # Build settings
