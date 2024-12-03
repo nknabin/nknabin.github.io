@@ -7,7 +7,7 @@ layout: home
 
 Welcome to my blog!
 
-Find all of my notes compiled in this repo: [nabin01/nbook](https://github.com/nabin01/nbook.git)
+Find all of my notes compiled in this repo: [nknabin/nbook](https://github.com/nknabin/nbook.git)
 
 ## Where do you want to wander today?
 
