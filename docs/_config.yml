@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Nabin's Blog
-email: nabinkoirala01.nk@gmail.com
+title: Nabin Koirala
+email: officialnabinkoirala@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Find stuff about programming, software development, Linux administration, web security, and more.
 domain: nknabin.xyz
