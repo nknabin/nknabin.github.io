@@ -7,10 +7,56 @@ layout: home
 
 Welcome to my blog!
 
-Find all of my notes compiled in this repo: [nknabin/nbook](https://github.com/nknabin/nbook.git)
+Find all of my notes compiled here!
 
 ## Where do you want to wander today?
 
+General
+<ul>
+  {% for post in site.categories.general %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+Git
+<ul>
+  {% for post in site.categories.git %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+Linux
+<ul>
+  {% for post in site.categories.linux %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+Security
+<ul>
+  {% for post in site.categories.security %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+Virtualization
+<ul>
+  {% for post in site.categories.virtualization %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+Wander
 <ul>
   {% for post in site.categories.wander %}
     {% if post.url %}
