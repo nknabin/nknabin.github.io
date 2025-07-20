@@ -4,8 +4,6 @@ title: Resume
 permalink: /resume/
 ---
 
-# Nabin Koirala - Work Experiences
-
 ## Technical Skills Summary
 
 ### System Administration
