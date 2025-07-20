@@ -75,16 +75,6 @@ permalink: /resume/
 **March 2024 - July 2024**
 - Developed specialized content to train AI models in ethical and accurate practices within specific domains (formal science and theoretical computer science).
 - Crafted, edited, assessed, and fact-checked AI interactions based on rigorous research.
-- Transformed manual deployment processes (manual patching to tests and production servers) into a streamlined continuous integration and deployment (CI/CD) pipeline using Azure DevOps Pipelines and Azure Repos.
-- Successfully migrated SVN repositories to Git repositories by using the git svn clone utility and developed a script to automate this process.
-- Configured Azure Active Directory Single Sign-On (SSO) for both single-tenant and multi-tenant clients.
-- Created clear, role-specific documentation for Azure Active Directory SSO, including step-by-step setup guides and troubleshooting procedures for developers, system administrators, and clients.
-- Developed automation scripts in Python and PowerShell for backup processes, monitoring, and software installations.
-- Installed and configured IIS server for use with PHP FastCGI and implemented client certificate authentication mapping using self-signed certificates.
-- Monitored and backed up SQL databases using Azure Storage Explorer and T-SQL scripts, while performing SQL Server maintenance, including job and report management, user administration, and privilege maintenance.
-- Managed tasks and HelpDesk inquiries using the Jira HelpDesk and ticketing system, assisting internal and external personnel (clients) with application setup and troubleshooting.
-- Executed the onboarding and offboarding of employees, including the setup and cleanup of work devices (laptops and desktops) and user accounts, and performed network setup/maintenance for office employees.
-- Participated in application setup/troubleshooting sessions for external personnel (clients).
 
 ---
 
