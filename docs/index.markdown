@@ -5,62 +5,22 @@
 layout: home
 ---
 
-Welcome to my blog!
+I am a technology enthusiast and find computers to be like magic. I have always enjoyed playing around on a computer, no matter what I did. From playing games to writing my own software, everything that I did has been a lot of fun. I have learned a lot and spilled pieces of my knowledge here, as a means to help myself when I am in need but also others who are on the same path.
 
-Find all of my notes compiled here!
+This website contains technical guides and information on various topics related to software development, Linux administration, web security and more. I try to keep all the information up to date, making necessary changes when things need to be updated.
 
-## Where do you want to wander today?
+There are some silly stuff on the blog as well. Give it a try and prepare to be bored.
 
-General
+With the intention of helping myself when I come here after a few years, I have tried to be as beginner friendly as possible in my articles. I wish you all good luck and enjoy your time here.
+
+Here are my recent posts! You can find more in the <a href="/blog">Blog</a> section.
+
 <ul>
-  {% for post in site.categories.general %}
+  {% for post in site.posts limit:3 %}
     {% if post.url %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li><span style="color: gray">{{ post.date | date: "%B %d, %Y" }} </span><a href="{{ post.url }}">{{ post.title }}</a></li>
+        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
     {% endif %}
   {% endfor %}
 </ul>
 
-Git
-<ul>
-  {% for post in site.categories.git %}
-    {% if post.url %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
-Linux
-<ul>
-  {% for post in site.categories.linux %}
-    {% if post.url %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
-Security
-<ul>
-  {% for post in site.categories.security %}
-    {% if post.url %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
-Virtualization
-<ul>
-  {% for post in site.categories.virtualization %}
-    {% if post.url %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
-Wander
-<ul>
-  {% for post in site.categories.wander %}
-    {% if post.url %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>

@@ -112,3 +112,19 @@ permalink: /resume/
 - Employed Hadoop MapReduce for processing and analyzing large datasets, and implemented data processing functions using the Java Cascading Framework.
 - Integrated AWS into big data solutions using APIs, SDKs, and CLI for automation.
 - Maintained HIPAA compliance during the processing and management of sensitive healthcare data in big data solutions.
+
+---
+
+## Certifications
+
+### [Certified in Cybersecurity (CC)](https://www.credly.com/badges/87378a5b-ec35-4c85-8ecc-3b1a3b3de862/public_url)
+**Issued by ISC2**
+August 16, 2024
+
+### [API Penetration Testing](https://www.credly.com/badges/a4270205-7ab4-4619-8a6b-272bf75cd741/public_url)
+**Issued by APIsec University**
+April 03, 2023
+
+### [API Security Fundamentals](https://www.credly.com/badges/1ca00771-2702-424f-aa57-1044c8972166/public_url)
+**Issued by APIsec University**
+March 31, 2023

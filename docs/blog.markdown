@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Wander
-permalink: /wander/
+title: Blog
+permalink: /blog/
 ---
 
-When the mind goes for a wander..
+My blog. My notes. My thoughts.
 
 <ul>
-  {% for post in site.categories.wander %}
+  {% for post in site.posts %}
     {% if post.url %}
         <li><span style="color: gray">{{ post.date | date: "%B %d, %Y" }} -- </span><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endif %}
+    {% endif %}
   {% endfor %}
 </ul>
